@@ -1,19 +1,28 @@
-body {
-    background-color: url('https://t4.ftcdn.net/jpg/05/72/54/67/360_F_572546714_2mn39TUv2f5Lmg7JRT9yvSkuTJERGyg8.jpg');
-    background-repeat: repeat;
+.firstDiv {
+    color: blue;
 }
 
-div {
-    background: red;
-    border-color: blue;
-    border-width: 10px;
-    border-style: dotted;
+.secondDiv {
+    color: red;
 }
-p {
+
+#singledout {
     color: green;
+    text-decoration: line-through;
 }
 
-span {
-background:blue;
-color: black;
+* {
+    color: black;
+}
+
+h3 + ul {
+    border: 4px dotted purple;
+}
+li a {
+    color: red;
+}
+
+li a[href='www.npr.org'] {
+    color: blue;
+    border: 5px solid orange;
 }
