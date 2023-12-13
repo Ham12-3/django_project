@@ -1,15 +1,19 @@
-/* assasas */
-/* 
-selected tag {
-    property: value;
-} */
-
-
-h1 {
-    color: red;
+body {
+    background-color: url('https://t4.ftcdn.net/jpg/05/72/54/67/360_F_572546714_2mn39TUv2f5Lmg7JRT9yvSkuTJERGyg8.jpg');
+    background-repeat: repeat;
 }
 
+div {
+    background: red;
+    border-color: blue;
+    border-width: 10px;
+    border-style: dotted;
+}
+p {
+    color: green;
+}
 
-li {
-    color: rgb(8,84 ,1 );
+span {
+background:blue;
+color: black;
 }
