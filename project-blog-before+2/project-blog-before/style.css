@@ -100,3 +100,23 @@ header {
     
 
 }
+
+/* Mobile responsive design  */
+
+@media(min-with:675px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    nav ul li {
+        padding: 10px;
+
+    }
+    
+}
